@@ -1,0 +1,168 @@
+.video-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 50px;
+
+    position: absolute;
+    left: 260px;
+}
+
+.video-grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 50px;
+
+    position: absolute;
+    top: 1400px;
+    left: 260px;
+}
+
+@media (max-width: 800px) {
+    .video-grid,
+    .video-grid-2 {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 1000px) {
+    .video_grid,
+    .video-grid-2 {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (min-width: 801px) and (max-width:999px) {
+    .video_grid,
+    .video-grid-2 {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.thumbnail-row {
+    margin-bottom: 8px;
+    position: relative;
+}
+
+.thumbnail-info-row {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
+
+.thumbnail {
+    width: 350px;
+    border-radius: 10px;
+}
+
+.video-title {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    color: white;
+
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.video-info {
+    display: inline-block;
+    width: 300px;
+}
+
+.video-author,
+.video-stats {
+    font-size: 15px;
+    color: rgb(177, 177, 177);
+}
+
+.video-author {
+    margin-bottom: 4px;
+}
+
+.channel-pic {
+    display: inline-block;
+    width: 35px;
+    vertical-align: top;
+}
+
+.profile-pic {
+    width: 40px;
+    border-radius: 50px;
+}
+
+.video_time {
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+
+    padding: 4px;
+    border-radius: 2px;
+    
+    position: absolute;
+    bottom: 8px;
+    right: 5px;
+}
+
+.video-link {
+    text-decoration: none;
+    color: white;
+}
+
+.shorts-section {
+    background-color: transparent;
+    color: white;
+    columns: 5;
+    display: grid;
+    margin-right: 50px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 30px;
+    position: absolute;
+    left: 260px;
+    top: 800px;
+}
+
+.shorts-section img {
+    height: 360px;
+    border-radius: 10px;
+}
+
+.shorts-title {
+    display: grid;
+    columns: 2;
+    grid-template-columns: 1fr 50px;
+    column-gap: 0;
+    margin-left: 15px;
+    width: 80px;
+    vertical-align: top;
+}
+
+.shorts-title img {
+    height: 30px;
+    margin-right: 5px;
+}
+
+.shorts-title p {
+    font-size: 22px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.shorts-info {
+    margin-top: 10px;
+    width: 200px;
+    font-weight: 500;
+}
+
+.shorts-vid-title {
+    font-size: 13px;
+    margin: 0;
+}
+
+.shorts-stats {
+    font-size: 13px;
+    color: rgb(177, 177, 177);
+    margin-top: 15px;
+}

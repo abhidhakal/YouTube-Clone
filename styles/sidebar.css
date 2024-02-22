@@ -1,0 +1,84 @@
+.sidebar {
+    background-color: #0f0f0f;
+    color: white;
+
+    position: fixed;
+    left: 14px;
+    bottom: 0;
+    top: 65px;
+
+    width: 72px;
+    z-index: 200;
+    padding-top: 8px;
+}
+
+.sidebar-link {
+    background-color: #0f0f0f;
+    height: 33px;
+    width: 180px;
+
+    border-radius: 10px;
+    padding-right: 20px;
+    padding-top: 5px;
+    margin-bottom: 4px;
+
+    display: grid;
+    columns: 2;
+    grid-template-columns: 30px 20px;
+
+    cursor: pointer;
+}
+
+.sidebar-link-home {
+    background-color: rgb(71, 70, 70);
+    height: 33px;
+    width: 180px;
+
+    border-radius: 10px;
+    padding-right: 20px;
+    padding-top: 6px;
+
+    display: grid;
+    columns: 2;
+    grid-template-columns: 30px 20px;
+
+    cursor: pointer;
+}
+
+.sidebar-link:hover {
+    background-color: rgb(71, 70, 70);
+}
+
+.sidebar-link img,
+.sidebar-link-home img{
+    height: 22px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    margin-right: 0;
+}
+
+.sidebar-link div,
+.sidebar-link-home div {
+    font-size: 14px;
+    margin-left: 30px;
+    margin-top: 5px;
+    width: 50px;
+}
+
+.line {
+    width: 210px;
+    border: 0.3px solid gray;
+    margin-top: 12px;
+}
+
+.you-bar {
+    font-size: 17px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.subs-bar {
+    font-size: 17px;
+    margin-left: 10px;
+    margin-top: 12px;
+}

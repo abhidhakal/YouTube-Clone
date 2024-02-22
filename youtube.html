@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>YouTube Clone</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles/general.css">
+        <link rel="stylesheet" href="styles/header.css">
+        <link rel="stylesheet" href="styles/video.css">
+        <link rel="stylesheet" href="styles/sidebar.css">
+    </head>
+
+    <body>
+        <header class="header">
+            <div class="left-section">
+                <img class="menu" src="icons/hamburger-menu.svg">
+                <a href="https://www.youtube.com/">
+                    <img class="logo" src="icons/yt-logo.svg">
+                </a>
+            </div>
+
+            <div class="mid-section">
+                <input class="search-bar" type="text" placeholder="Search">
+                <button
+                class="search-btn">
+                    <img class="search-icon" src="icons/search.svg">
+                    <div class="tooltip">Search</div>
+                </button>
+                <button 
+                class="voice-search-btn">
+                    <img class="voice-search-icon" src="icons/voice-search.svg">
+                    <div class="tooltip">Search with your voice</div>
+                </button>
+            </div>
+
+            <div class="right-section">
+                <div class="create-icon-frame">
+                    <img class="create-icon" src="icons/yt-create.svg">
+                    <div class="tooltip">Create</div>
+                </div>
+                <div class="bell-icon-frame">
+                    <img class="notification-icon" src="icons/yt-notification.svg">
+                    <div class="tooltip">Notifications</div>
+                </div>
+                <div>
+                    <img class="current-user-profile-pic" src="channels/my-channel.jpeg">
+                </div>
+            </div>
+        </header>
+
+    <nav class="sidebar">
+        <div class="sidebar-link-home">
+            <img src="icons/home.svg"><div>Home</div>
+        </div>
+
+        <div class="sidebar-link">
+            <img src="icons/yt-shorts.svg"><div>Shorts</div>
+        </div>
+
+        <div class="sidebar-link">
+            <img style="height: 26px;" src="icons/yt-subscriptions.svg"><div>Subscriptions</div>
+        </div>
+
+        <hr class="line">
+
+        <div class="sidebar-link">
+            <p class="you-bar">You&#160;&#160;></p>
+        </div>
+
+        <div class="sidebar-link">
+            <img src="icons/your-channel.svg"><div>Your&#160;Channel</div>
+        </div>
+
+        <div class="sidebar-link">
+            <img src="icons/history.svg"><div>History</div>
+        </div>
+
+        <div class="sidebar-link">
+            <img src="icons/your-videos.svg"><div>Your&#160;Videos</div>
+        </div>
+
+        <div class="sidebar-link">
+            <img src="icons/watch-later.svg"><div>Watch&#160;Later</div>
+        </div>
+
+        <div class="sidebar-link">
+            <img src="icons/liked-videos.svg"><div>Liked&#160;Videos</div>
+        </div>
+
+        <div class="sidebar-link">
+            <img src="icons/arrow.svg"><div>Show&#160;More</div>
+        </div>
+
+        <hr class="line">
+
+        <div>
+            <p class="subs-bar">Subscriptions</p>
+        </div>
+
+    </nav>
+
+    <main>
+        <section class="video-grid">
+            <div class="thumbnail-frame">
+                <div class="thumbnail-row">
+                    <a href="https://www.youtube.com/watch?v=0obeWBYSES0">
+                        <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
+                    </a>
+                </div>
+
+                <div class="thumbnail-info-row">
+                    <div class="channel-pic">
+                        <img class="profile-pic" src="channels/channel-1.jpeg">
+                    </div>
+
+                    <div class="video-info">
+                        <p class="video-title">
+                            <a class="video-link"
+                            href="https://www.youtube.com/watch?v=0obeWBYSES0">
+                                SIDEMEN ABANDONED IN IRELAND CHALLENGE
+                            </a>
+                        </p>
+                        <p class="video-author">
+                            Sidemen &#10003;
+                        </p>
+                        <p class="video-stats">
+                            2.5M views &#183; 11 hours ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        <div class="thumbnail-frame">
+            <div class="thumbnail-row">
+                <a href="https://www.youtube.com/watch?v=-ofbkFD-MbE">
+                    <img class="thumbnail" src="thumbnails/thumbnail-2.webp">
+                </a>
+            </div>
+
+            <div class="thumbnail-info-row">
+                <div class="channel-pic">
+                    <img class="profile-pic" src="channels/channel-2.jpeg">
+                </div>
+
+                <div class="video-info">
+                    <p class="video-title">
+                        <a class="video-link"
+                        href="https://www.youtube.com/watch?v=-ofbkFD-MbE">
+                            EXTENDED HIGHLIGHTS &#124; Man City 1 - 0 Brentford &#124; Haaland strike gives City a big THREE POINTS!
+                        </a>
+                    </p>
+                    <p class="video-author">
+                        Man City &#10003;
+                    </p>
+                    <p class="video-stats">
+                        50K views &#183; 7 hours ago
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="thumbnail-frame">
+            <div class="thumbnail-row">
+                <a href="https://www.youtube.com/watch?v=uJMCNJP2ipI&t=1s">
+                    <img class="thumbnail" src="thumbnails/thumbnail-3.webp">
+                </a>
+            </div>
+    
+            <div class="thumbnail-info-row">
+                <div class="channel-pic">
+                    <img class="profile-pic" src="channels/channel-3.jpeg">
+                </div>
+    
+                <div class="video-info">
+                    <p class="video-title">
+                        <a class="video-link"
+                        href="https://www.youtube.com/watch?v=uJMCNJP2ipI&t=1s">
+                        Deadpool & Wolverine &#124; Official Teaser &#124; In Theaters July 26
+                        </a>
+                    </p>
+                    <p class="video-author">
+                        Marvel Entertainment &#10003;
+                    </p>
+                    <p class="video-stats">
+                        22M views &#183; 7 days ago
+                    </p>
+                </div>
+            </div>
+        </div>
+
+            <div class="thumbnail-frame">
+                <div class="thumbnail-row">
+                    <a href="https://www.youtube.com/watch?v=EVJjmMW7eII">
+                        <img class="thumbnail" src="thumbnails/thumbnail-4.webp">
+                    </a>
+                </div>
+
+                <div class="thumbnail-info-row">
+                    <div class="channel-pic">
+                        <img class="profile-pic" src="channels/channel-1.jpeg">
+                    </div>
+
+                    <div class="video-info">
+                        <p class="video-title">
+                            <a class="video-link"
+                            href="https://www.youtube.com/watch?v=EVJjmMW7eII">
+                                비비 - 밤양갱 &#124; 	&#91;TEXTED&#93; BIBI &#124; 가사(Lyrics)
+                            </a>
+                        </p>
+                        <p class="video-author">
+                            Dingo FreeStyle &#10003;
+                        </p>
+                        <p class="video-stats">
+                            3M views &#183; 7 days ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="thumbnail-frame">
+                <div class="thumbnail-row">
+                    <a href="https://www.youtube.com/watch?v=br-Ao33SfMw">
+                        <img class="thumbnail" src="thumbnails/thumbnail-5.jpeg">
+                    </a>
+                </div>
+
+                <div class="thumbnail-info-row">
+                    <div class="channel-pic">
+                        <img class="profile-pic" src="channels/channel-5.jpeg">
+                    </div>
+
+                    <div class="video-info">
+                        <p class="video-title">
+                            <a class="video-link"
+                            href="https://www.youtube.com/watch?v=br-Ao33SfMw">
+                                Grandparents Came to Japan!
+                            </a>
+                        </p>
+                        <p class="video-author">
+                            PewDiePie &#10003;
+                        </p>
+                        <p class="video-stats">
+                            3M views &#183; 13 days ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="thumbnail-frame">
+                <div class="thumbnail-row">
+                    <a href="https://www.youtube.com/watch?v=NXpdyAWLDas">
+                        <img class="thumbnail" src="thumbnails/thumbnail-6.jpeg">
+                    </a>
+                </div>
+
+                <div class="thumbnail-info-row">
+                    <div class="channel-pic">
+                        <img class="profile-pic" src="channels/channel-6.jpeg">
+                    </div>
+
+                    <div class="video-info">
+                        <p class="video-title">
+                            <a class="video-link"
+                            href="https://www.youtube.com/watch?v=NXpdyAWLDas">
+                                AI Generated Videos Just Changed Forever
+                            </a>
+                        </p>
+                        <p class="video-author">
+                            Marques Brownlee &#10003;
+                        </p>
+                        <p class="video-stats">
+                            6.9M views &#183; 6 days ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="shorts-section">
+            <div class="shorts-title">
+                <img src="icons/yt-shorts-2.svg"><p>Shorts</p>
+            </div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+
+            <div class="shorts-frame">
+                <div class="shorts-thumbnail">
+                    <a href="https://www.youtube.com/shorts/2_UBNozOAR4">
+                        <img src="shorts/short-1.jpeg">
+                    </a>
+                </div>
+                <div class="shorts-info">
+                    <p class="shorts-vid--title">
+                        A Slightly Fancier Fish & Chips
+                    </p>
+                    <p class="shorts-stats">
+                        3.2M views
+                    </p>
+                </div>
+            </div>
+
+            <div class="shorts-frame">
+                <div class="shorts-thumbnail">
+                    <a href="https://www.youtube.com/shorts/OLJtnptFjV0">
+                        <img src="shorts/short-2.jpeg">
+                    </a>
+                </div>
+                <div class="shorts-info">
+                    <p class="shorts-vid--title">
+                        Harry MEETS Ethan's Child For The FIRST Time 👶
+                    </p>
+                    <p class="shorts-stats">
+                        2.6M views
+                    </p>
+                </div>
+            </div>
+
+            <div class="shorts-frame">
+                <div class="shorts-thumbnail">
+                    <a href="https://www.youtube.com/shorts/oLXq-ElCeBw">
+                        <img src="shorts/shorts-3.jpeg">
+                    </a>
+                </div>
+                <div class="shorts-info">
+                    <p class="shorts-vid--title">
+                        Gloria would be so proud #Shorts #ModernFamily
+                    </p>
+                    <p class="shorts-stats">
+                        10M views
+                    </p>
+                </div>
+            </div>
+
+            <div class="shorts-frame">
+                <div class="shorts-thumbnail">
+                    <a href="https://www.youtube.com/shorts/2_UBNozOAR4">
+                        <img src="shorts/shorts-4.jpeg">
+                    </a>
+                </div>
+                <div class="shorts-info">
+                    <p class="shorts-vid--title">
+                        This will give you rizz…😌
+                    </p>
+                    <p class="shorts-stats">
+                        677K views
+                    </p>
+                </div>
+            </div>
+
+            <div class="shorts-frame">
+                <div class="shorts-thumbnail">
+                    <a href="https://www.youtube.com/shorts/8E2DGCQbWKk">
+                        <img src="shorts/shorts-5.jpeg">
+                    </a>
+                </div>
+                <div class="shorts-info">
+                    <p class="shorts-vid--title">
+                        Viral Japanese Ice Cream
+                    </p>
+                    <p class="shorts-stats">
+                        6.6M views
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="video-grid-2">
+            <div class="thumbnail-frame">
+                <div class="thumbnail-row">
+                    <a href="https://www.youtube.com/watch?v=jE9RxUPj74w">
+                        <img class="thumbnail" src="thumbnails/thumbnail-7.webp">
+                    </a>
+                </div>
+
+                <div class="thumbnail-info-row">
+                    <div class="channel-pic">
+                        <img class="profile-pic" src="channels/channel-7.jpeg">
+                    </div>
+
+                    <div class="video-info">
+                        <p class="video-title">
+                            <a class="video-link"
+                            href="https://www.youtube.com/watch?v=jE9RxUPj74w">
+                                The 99 taking absolutely no responsibility for their actions &#124; Brooklyn Nine-Nine
+                            </a>
+                        </p>
+                        <p class="video-author">
+                            Brooklyn Nine-Nine &#10003;
+                        </p>
+                        <p class="video-stats">
+                            201K views &#183; 12 days ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        <div class="thumbnail-frame">
+            <div class="thumbnail-row">
+                <a href="https://www.youtube.com/watch?v=obWYA26Z7A0">
+                    <img class="thumbnail" src="thumbnails/thumbnail-8.webp">
+                </a>
+            </div>
+
+            <div class="thumbnail-info-row">
+                <div class="channel-pic">
+                    <img class="profile-pic" src="channels/channel-8.jpeg">
+                </div>
+
+                <div class="video-info">
+                    <p class="video-title">
+                        <a class="video-link"
+                        href="https://www.youtube.com/watch?v=obWYA26Z7A0">
+                            Micah, Carragher & Henry tease Kate Abdo for her 2007 showreel 😭 &#124; UCL Today &#124; CBS Sports Golazo
+                        </a>
+                    </p>
+                    <p class="video-author">
+                        CBS Sports Golazo &#10003;
+                    </p>
+                    <p class="video-stats">
+                        5K views &#183; 30 minutes ago
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="thumbnail-frame">
+            <div class="thumbnail-row">
+                <a href="https://www.youtube.com/watch?v=_UySDkNH3rY">
+                    <img class="thumbnail" src="thumbnails/thumbnail-9.webp">
+                </a>
+            </div>
+    
+            <div class="thumbnail-info-row">
+                <div class="channel-pic">
+                    <img class="profile-pic" src="channels/channel-9.jpeg">
+                </div>
+    
+                <div class="video-info">
+                    <p class="video-title">
+                        <a class="video-link"
+                        href="https://www.youtube.com/watch?v=_UySDkNH3rY">
+                            GUESS THE LANGUAGE: AFRICA EDITION &#40;THE FINALE&#41;
+                        </a>
+                    </p>
+                    <p class="video-author">
+                        NDL &#10003;
+                    </p>
+                    <p class="video-stats">
+                        1.7M views &#183; 1 day ago
+                    </p>
+                </div>
+            </div>
+        </div>
+
+            <div class="thumbnail-frame">
+                <div class="thumbnail-row">
+                    <a href="https://www.youtube.com/watch?v=iNU207kdGdE">
+                        <img class="thumbnail" src="thumbnails/thumbnail-10.webp">
+                    </a>
+                </div>
+
+                <div class="thumbnail-info-row">
+                    <div class="channel-pic">
+                        <img class="profile-pic" src="channels/channel-10.jpeg">
+                    </div>
+
+                    <div class="video-info">
+                        <p class="video-title">
+                            <a class="video-link"
+                            href="https://www.youtube.com/watch?v=iNU207kdGdE">
+                                This Was The Best NBA Game I've Ever Seen
+                            </a>
+                        </p>
+                        <p class="video-author">
+                            Hoop Reports &#10003;
+                        </p>
+                        <p class="video-stats">
+                            200K views &#183; 6 days ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="thumbnail-frame">
+                <div class="thumbnail-row">
+                    <a href="https://www.youtube.com/watch?v=y9ut3fC2BDw">
+                        <img class="thumbnail" src="thumbnails/thumbnail-11.webp">
+                    </a>
+                </div>
+
+                <div class="thumbnail-info-row">
+                    <div class="channel-pic">
+                        <img class="profile-pic" src="channels/channel-11.jpeg">
+                    </div>
+
+                    <div class="video-info">
+                        <p class="video-title">
+                            <a class="video-link"
+                            href="https://www.youtube.com/watch?v=y9ut3fC2BDw">
+                            5 simple but effective tips to sing better!
+                            </a>
+                        </p>
+                        <p class="video-author">
+                            Joseph Solomon &#9834;
+                        </p>
+                        <p class="video-stats">
+                            1.2M views &#183; 1 year ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="thumbnail-frame">
+                <div class="thumbnail-row">
+                    <a href="https://www.youtube.com/watch?v=pbNs7tAUFkk">
+                        <img class="thumbnail" src="thumbnails/thumbnail-12.jpeg">
+                    </a>
+                </div>
+
+                <div class="thumbnail-info-row">
+                    <div class="channel-pic">
+                        <img class="profile-pic" src="channels/channel-12.jpeg">
+                    </div>
+
+                    <div class="video-info">
+                        <p class="video-title">
+                            <a class="video-link"
+                            href="https://www.youtube.com/watch?v=pbNs7tAUFkk">
+                                keshi - drunk (live acoustic)
+                            </a>
+                        </p>
+                        <p class="video-author">
+                            keshi &#9834;
+                        </p>
+                        <p class="video-stats">
+                            37M views &#183; 3 years ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</html>
